@@ -1,6 +1,37 @@
+@import "reset.scss";
+@import "variable.scss";
+
 body {
-  background: peru;
-  a {
-    color: blue;
+  height: 100vh;
+  background: $red;
+}
+
+header {
+  background-color: $b_w;
+  width: 33%;
+  height: 100%;
+  h1 {
+    color: $red;
   }
 }
+
+.head {
+  color: $red;
+}
+
+.titl_1 {
+  font-size: 55px;
+}
+
+.p_1 {
+  font-size: 20px;
+}
+
+.p_2 {
+  font-size: 15px;
+}
+
+.tag {
+  color: $gray;
+}
+
