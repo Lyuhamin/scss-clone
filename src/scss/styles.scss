@@ -8,10 +8,17 @@ body {
 
 header {
   background-color: $b_w;
-  width: 33%;
+  width: 35%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3vh;
   h1 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     color: $red;
+    font-size: 55px;
+    width: 50%;
   }
 }
 
@@ -19,15 +26,15 @@ header {
   color: $red;
 }
 
-.titl_1 {
-  font-size: 55px;
-}
-
 .p_1 {
   font-size: 20px;
+  display: flex;
+  padding-bottom: 10%;
 }
 
 .p_2 {
+  display: flex;
+  padding-bottom: 10%;
   font-size: 15px;
 }
 
